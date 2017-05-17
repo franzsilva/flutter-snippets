@@ -3,14 +3,14 @@
     "publisher": "franzsilva",
     "description": "Flutter IntelliJ IDEA Snippets for vscode",
     "displayName": "Flutter Snippets for vscode(from IntelliJ IDEA)",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "icon": "images/flutterlogo.png",
     "engines": {
         "vscode": "^1.0.0"
     },
     "keywords": ["Flutter", "Dart"],
     "galleryBanner": {
-        "color": "#0000FF",
+        "color": "#FFFFFF",
         "theme": "dark"
     },
     "homepage": "https://github.com/franzsilva/flutter-snippets/blob/master/README.md",
