@@ -1,0 +1,63 @@
+{
+	"Create StatelessWidget": {
+		"prefix": "stless",
+		"body": [
+			"class $1 extends StatelessWidget {",
+			"\t@override",
+			"\tWidget build(BuildContext context) {",
+			"\t\treturn new Container($0);",
+			"\t}",
+			"}"
+		],
+		"description": "Create a new subclass of StatelessWidget"
+	},
+	"Create a new StatefulWidget ": {
+		"prefix": "stful",
+		"body": [
+			"class $1 extends StatefulWidget {",
+			"\t@override",
+			"\t_$1State createState() => new _$1State();",
+			"}",
+			"",
+			"class _$1State extends State<$1> {",
+			"\t@override",
+			"\tWidget build(BuildContext context) {",
+			"\t\treturn new Container($0);",
+			"\t}",
+			"}"
+		],
+		"description": "Create a new subclass of StatefulWidget and it’s associated State subclass."
+	},
+	"Create a new StatefulWidget with AnimationController": {
+		"prefix": "stanim",
+		"body": [
+			"class $1 extends StatefulWidget {",
+			"\t@override",
+			"\t_$1State createState() => new _$1State();",
+			"}",
+			"",
+			"class _$1State extends State<$1>",
+			"\t\twith SingleTickerProviderStateMixin {",
+			"\tAnimationController _controller;",
+			"\t",
+			"\t@override",
+			"\tvoid initState() {",
+			"\t\tsuper.initState();",
+			"\t\t_controller = new AnimationController(vsync: this);",
+			"\t}",
+			"\t",
+			"\t@override",
+			"\tvoid dispose() {",
+			"\t\tsuper.dispose();",
+			"\t\t_controller.dispose();",
+			"\t}",
+			"\t",
+			"\t@override",
+			"\tWidget build(BuildContext context) {",
+			"\t\treturn new Container($0);",
+			"\t}",
+			"}"
+		],
+		"description": " Create a new subclass of StatefulWidget, and it’s associated State subclass including a field initialized with an AnimationController."
+	}
+}
