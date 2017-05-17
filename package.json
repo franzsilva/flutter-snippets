@@ -12,12 +12,13 @@
         "color": "#0000FF",
         "theme": "dark"
     },
+    "homepage": "https://github.com/franzsilva/flutter-snippets/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Microsoft/vscode-spell-check.git"
+        "url": "https://github.com/franzsilva/flutter-snippets.git"
     },
     "bugs": {
-        "url": "https://github.com/Microsoft/vscode-spell-check/issues",
+        "url": "https://github.com/franzsilva/flutter-snippets/issues",
         "email": "franzsilva@gmail.com"
     },
     "categories": [
