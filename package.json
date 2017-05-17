@@ -8,6 +8,7 @@
     "engines": {
         "vscode": "^1.0.0"
     },
+    "keywords": ["Flutter", "Dart"],
     "galleryBanner": {
         "color": "#0000FF",
         "theme": "dark"
