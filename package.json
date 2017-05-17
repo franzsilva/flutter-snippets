@@ -3,7 +3,7 @@
     "publisher": "franzsilva",
     "description": "Flutter IntelliJ IDEA Snippets for vscode",
     "displayName": "Flutter Snippets for vscode(from IntelliJ IDEA)",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "icon": "images/flutterlogo.png",
     "engines": {
         "vscode": "^1.0.0"
