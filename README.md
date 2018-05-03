@@ -1,8 +1,7 @@
 # Flutter Snippets
-Flutter snippets for vscode translated from IntelliJ IDEA Official Snippets
 
-I'll try to keep the repository updated with the latest snippets published by the flutter team for VSCODE,
+## This extension has been depricated in favor to use the official dart code extension. Which includes these snippets. 
 
-Use this in combination with the [Dart Code](https://marketplace.visualstudio.com/items?itemName=DanTup.dart-code) extension and the terminal and you have a complete environment to work with.
+You can download the extension from:
+https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code
 
-Pull Requests Apreciated.
